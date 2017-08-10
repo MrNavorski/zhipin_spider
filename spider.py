@@ -13,7 +13,7 @@ def get_page(page,headers):
         text = response.text
     else:
         print("错误代码20172017201720172017201720172017201720172017201720172017201720172017201720172017:"+str(response.status_code))
-        print('获取页面失败sssss')
+        print('获取页面失败sssss_1')
     return text
 
 
